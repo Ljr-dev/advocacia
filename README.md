@@ -1,36 +1,140 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚖️ Advocacia Premium — Landing Page Jurídica
 
-## Getting Started
+Landing page premium desenvolvida para escritórios de advocacia modernos, com foco em autoridade, conversão, performance e experiência visual sofisticada.
 
-First, run the development server:
+Projeto desenvolvido utilizando Next.js, TailwindCSS e Framer Motion, com design responsivo para desktop, tablet e mobile.
+
+---
+
+## ✨ Funcionalidades
+
+* Hero section premium
+* Sessão de especialidades jurídicas
+* Sessão institucional sobre o advogado
+* Depoimentos de clientes
+* Sessão de contato estratégica
+* Botão flutuante do WhatsApp
+* Navbar com efeito blur ao scroll
+* Layout totalmente responsivo
+* SEO otimizado
+* Performance otimizada com Next.js
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+* Next.js 15
+* React
+* TypeScript
+* TailwindCSS
+* Framer Motion
+
+---
+
+## 📂 Estrutura do Projeto
+
+```bash
+app/
+components/
+  layout/
+  sections/
+  ui/
+public/
+```
+
+---
+
+## ⚙️ Instalação
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/Ljr-dev/advocacia.git
+```
+
+Acesse a pasta:
+
+```bash
+cd advocacia
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra no navegador:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🌐 Deploy VPS
 
-To learn more about Next.js, take a look at the following resources:
+Build do projeto:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Iniciar produção:
 
-## Deploy on Vercel
+```bash
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Ou utilizando PM2:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+pm2 start npm --name advocacia -- start
+```
+
+---
+
+## 🔥 SEO
+
+O projeto possui:
+
+* Meta title otimizado
+* Meta description
+* Estrutura semântica
+* Performance otimizada
+* Responsividade mobile-first
+
+---
+
+## 📱 Responsividade
+
+O layout foi desenvolvido para:
+
+* Mobile
+* Tablet
+* Desktop
+* Telas ultrawide
+
+---
+
+## 📞 Contato
+
+Projeto desenvolvido por Leandro Rocha.
+
+WhatsApp:
+(19) 98214-4043
+
+Portfólio:
+https://portfolio.quizrocha.com.br
+
+---
+
+## 📄 Licença
+
+Projeto desenvolvido para fins de portfólio e demonstração profissional.
