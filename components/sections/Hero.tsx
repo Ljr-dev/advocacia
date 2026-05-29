@@ -12,8 +12,8 @@ export function Hero() {
       <div className="container-premium relative z-10 min-h-screen flex items-center justify-center">
 
         {/* CONTENT */}
-        <div className="w-full flex flex-col items-center text-center pt-28 md:pt-40 pb-16 md:pb-20">
-
+        <div className="w-full flex flex-col items-center text-center pt-[170px] sm:pt-[190px] md:pt-40 pb-20">
+        
           {/* BADGE */}
           <div className="inline-flex items-center justify-center border border-[#C6A15B]/20 bg-[#C6A15B]/5 px-4 md:px-6 py-2 md:py-3 rounded-full">
 
